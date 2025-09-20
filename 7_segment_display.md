@@ -1,4 +1,4 @@
- 2.  7-Segment Display
+``` 2.  7-Segment Display
 int a[10][7]={
   {1,1,1,1,1,1,0},
   {0,1,1,0,0,0,0},
@@ -36,7 +36,7 @@ void loop() {
   }
    // this speeds up the simulation
 }
- 
+```
 
 In this task I used array contains 10 elements in each 7 entities are there .Then initialized the output points of the ESP32 then used pinmode output command for the each output points 
 of microcontroller .Used a for loop and inside that loop used another for loop and to get the each elemnts in the array used the array variable with[][] for get the element .Compared
