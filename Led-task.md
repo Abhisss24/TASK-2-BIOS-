@@ -1,4 +1,4 @@
-1.	  A, LED TASK
+```1.	  A, LED TASK
  int a[5];
 void setup() {
   // put your setup code here, to run once:
@@ -34,6 +34,7 @@ void loop() {
   
   delay(10); // this speeds up the simulation
 }
+```
 
 Firstly I initialize a array  named a contains 5 elements. The elements are the output pins of the ESP32, and using a for loop initialized that array of a is the output for the ESP32 .
 The ouput pins are connected to the each leds in a specific order .And used a for loop for repetition of blinking of led in a specific order firstly light up a led and turn off the led
