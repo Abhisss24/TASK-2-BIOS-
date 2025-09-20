@@ -1,4 +1,4 @@
-4. Servo clock
+```4. Servo clock
 #include <ESP32Servo.h>
 Servo abhi1;
 Servo abhi2;
@@ -25,6 +25,7 @@ void loop() {
    }
   }
  }
+```
 I included one libraries named “ESP32SERVO” and used a servo variables  as  abhi1 for the  hour hand and abhi2 for the mins hand and initialized the position of the ESP32 as servo variable
 with  the output point (abhi1.attach(point)).Give an option to the user to input the time to show it in servo motor . The input must be in the format hour _mins(hour space mins) . If the user
 input 6 30 it will convert into the angle in the servo and shown in the servo clock ie, multiply the hour with the 15 to get the angle in servo and multiply the mins with 3 to get the angle of
