@@ -1,4 +1,4 @@
-1.B, LED REPRESENTATION FOR BINARY NUMBERS.
+```1.B, LED REPRESENTATION FOR BINARY NUMBERS.
      int a[5];
  int x[10][5]={
   {0,0,0,0,0},
@@ -43,7 +43,7 @@ void loop() {
  }
   
 }
-
+```
 
 Firstly I initialize a list named a contains 5 elements, also initialize a set contains 10 elements in each set contains 5 elements.And the 5 elements were the binary representation
 for each number till 9. The list a contains the output pins of the ESP32 and the outpins are connected to the each leds in a order . And introduced a for loop  and inside the loop used
